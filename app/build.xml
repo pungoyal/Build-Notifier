@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="BuildNotifier" default="help">
+<project name="BuildNotifier">
 
 	<!-- The local.properties file is created and updated by the 'android'
      tool.
      It contains the path to the SDK. It should *NOT* be checked into
      Version Control Systems. -->
-	<property file="../build/local.properties" />
+	<property file="local.properties" />
 
 	<!-- The build.properties file can be created by you and is never touched
          by the 'android' tool. This is the place to change some of the
@@ -24,13 +24,13 @@
          application and should be checked into Version Control Systems.
 
          -->
-	<property file="../build/build.properties" />
+	<property file="build.properties" />
 
 	<!-- The default.properties file is created and updated by the 'android'
          tool, as well as ADT.
          This file is an integral part of the build system for your
          application and should be checked into Version Control Systems. -->
-	<property file="../build/default.properties" />
+	<property file="default.properties" />
 
 	<!-- Custom Android task to deal with the project target, and import the
          proper rules.
