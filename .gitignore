@@ -1,0 +1,5 @@
+app/bin/*
+test/bin/*
+*DS_Store
+.metadata/*
+local/*
