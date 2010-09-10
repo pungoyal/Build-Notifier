@@ -1,4 +1,5 @@
 app/bin/*
+app/gen/*
 test/bin/*
 *DS_Store
 .metadata/*
