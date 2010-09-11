@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="BuildNotifierTest">
+<project name="Build Notifier Test">
 
 	<!-- The local.properties file is created and updated by the 'android'
      tool.
@@ -41,6 +41,10 @@
 		<pathelement path="${sdk.dir}/tools/lib/androidprefs.jar" />
 	</path>
 
+	<path id="classpath.test">
+		<pathelement location="libs/junit-4.8.2.jar" />
+	</path>
+
 	<taskdef name="setup" classname="com.android.ant.SetupTask" classpathref="android.antlibs" />
 
 	<!-- extension targets. Uncomment the ones where you want to do custom work
@@ -77,6 +81,18 @@
                below to <setup import="false" />. 
              - customize to your needs.
     -->
-	<setup />
 
+	<target name="tests" description="Run all the tests" depends="clean, compile">
+		<junit haltonfailure="true" printsummary="true">
+			<classpath refid="classpath.test" />
+			<formatter type="brief" usefile="false" />
+
+			<batchtest>
+				<fileset dir="${source.dir}">
+					<include name="**/*Test.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+	<setup />
 </project>
