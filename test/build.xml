@@ -43,6 +43,8 @@
 
 	<path id="classpath.test">
 		<pathelement location="libs/junit-4.8.2.jar" />
+		<pathelement location="bin/classes" />
+		<pathelement location="../app/bin/classes" />
 	</path>
 
 	<taskdef name="setup" classname="com.android.ant.SetupTask" classpathref="android.antlibs" />
@@ -93,6 +95,9 @@
 				</fileset>
 			</batchtest>
 		</junit>
+
+		<antcall target="run-tests" />
 	</target>
+
 	<setup />
 </project>
