@@ -6,3 +6,4 @@ unit/build/*
 *DS_Store
 .metadata/*
 local/*
+out/*
