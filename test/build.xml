@@ -84,20 +84,5 @@
              - customize to your needs.
     -->
 
-	<target name="tests" description="Run all the tests" depends="clean, compile">
-		<junit haltonfailure="true" printsummary="true">
-			<classpath refid="classpath.test" />
-			<formatter type="brief" usefile="false" />
-
-			<batchtest>
-				<fileset dir="${source.dir}">
-					<include name="**/*Test.java" />
-				</fileset>
-			</batchtest>
-		</junit>
-
-		<antcall target="run-tests" />
-	</target>
-
 	<setup />
 </project>

@@ -1,10 +1,10 @@
 package com.thoughtworks.buildnotifier.domain;
 
-import junit.framework.TestCase;
+import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 
-public class PipelinesTest extends TestCase {
+public class PipelinesTest {
 
 	@Test
 	public void testFind() {
