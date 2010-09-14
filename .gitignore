@@ -1,8 +1,11 @@
 app/bin/*
 app/gen/*
+app/local.properties
 test/bin/*
 test/coverage/*
+test/local.properties
 unit/build/*
+.idea/workspace.xml
 *DS_Store
 .metadata/*
 local/*
