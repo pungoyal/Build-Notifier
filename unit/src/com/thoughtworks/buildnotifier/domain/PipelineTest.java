@@ -1,5 +1,8 @@
 package com.thoughtworks.buildnotifier.domain;
 
+import com.thoughtworks.buildnotifier.model.domain.Job;
+import com.thoughtworks.buildnotifier.model.domain.Pipeline;
+import com.thoughtworks.buildnotifier.model.domain.Stage;
 import com.thoughtworks.buildnotifier.mothers.JobMother;
 import com.thoughtworks.buildnotifier.mothers.StageMother;
 import org.junit.Test;

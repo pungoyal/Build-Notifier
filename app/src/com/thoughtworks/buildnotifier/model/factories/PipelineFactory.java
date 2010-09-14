@@ -1,6 +1,6 @@
-package com.thoughtworks.buildnotifier.factories;
+package com.thoughtworks.buildnotifier.model.factories;
 
-import com.thoughtworks.buildnotifier.domain.*;
+import com.thoughtworks.buildnotifier.model.domain.*;
 import org.xml.sax.Attributes;
 
 import java.text.ParseException;

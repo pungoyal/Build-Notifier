@@ -1,8 +1,8 @@
 package com.thoughtworks.buildnotifier.mothers;
 
-import com.thoughtworks.buildnotifier.domain.BuildActivity;
-import com.thoughtworks.buildnotifier.domain.BuildStatus;
-import com.thoughtworks.buildnotifier.domain.Stage;
+import com.thoughtworks.buildnotifier.model.domain.BuildActivity;
+import com.thoughtworks.buildnotifier.model.domain.BuildStatus;
+import com.thoughtworks.buildnotifier.model.domain.Stage;
 
 import java.util.Date;
 

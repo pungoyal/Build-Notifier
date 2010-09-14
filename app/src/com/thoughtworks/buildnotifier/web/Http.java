@@ -607,25 +607,25 @@ public final class Http {
             final HttpPost request = new HttpPost(url);
             if (data != null) {
                 entity = new UrlEncodedFormEntity(data, charset);
-			}
+            }
 
-			request.setEntity(entity);
-			return request;
-		}
+            request.setEntity(entity);
+            return request;
+        }
 
-		protected List<NameValuePair> getData() {
-			if (data == null) {
-				data = new ArrayList<NameValuePair>();
-			}
-			return data;
-		}
+        protected List<NameValuePair> getData() {
+            if (data == null) {
+                data = new ArrayList<NameValuePair>();
+            }
+            return data;
+        }
 
-		private void ensureNoEntity() {
-			if (entity != null) {
-				throw new IllegalStateException(
-						"You cannot set the data after specifying a custom entity.");
-			}
-		}
+        private void ensureNoEntity() {
+            if (entity != null) {
+                throw new IllegalStateException(
+                        "You cannot set the data after specifying a custom entity.");
+            }
+        }
 
-	}
+    }
 }

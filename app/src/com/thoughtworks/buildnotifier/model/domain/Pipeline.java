@@ -1,4 +1,4 @@
-package com.thoughtworks.buildnotifier.domain;
+package com.thoughtworks.buildnotifier.model.domain;
 
 import java.util.ArrayList;
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="background">#FFA29A86</color>
-	<color name="heading_text">#FFF</color>
-	<color name="text">#FF474644</color>
+    <color name="background">#FFA29A86</color>
+    <color name="heading_text">#FFF</color>
+    <color name="text">#FF474644</color>
 
-	<color name="status_background">#FFE7E1D1</color>
+    <color name="status_background">#FFE7E1D1</color>
 </resources>

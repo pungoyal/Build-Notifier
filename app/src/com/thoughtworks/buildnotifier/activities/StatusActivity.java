@@ -4,8 +4,8 @@ import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.Window;
 import com.thoughtworks.buildnotifier.R;
-import com.thoughtworks.buildnotifier.adapters.StatusAdapter;
-import com.thoughtworks.buildnotifier.domain.Pipelines;
+import com.thoughtworks.buildnotifier.model.domain.Pipelines;
+import com.thoughtworks.buildnotifier.view.adapters.StatusAdapter;
 import com.thoughtworks.buildnotifier.web.WebClient;
 
 public class StatusActivity extends ListActivity {
