@@ -86,7 +86,7 @@ import java.util.Map.Entry;
  *
  * @author Thomas Dudek (mastacode@gmail.com)
  * @version 0.1a
- * @copyright Copyright © Thomas Dudek
+ * @copyright Copyright Thomas Dudek
  */
 public final class Http {
 

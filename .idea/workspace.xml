@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a775574-04e5-4731-b931-e468a77a6f5c" name="Default" comment="minor refactorings">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/views/StatusView.java" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/views/StatusView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unit/src/com/thoughtworks/buildnotifier/domain/PipelineTest.java" afterPath="$PROJECT_DIR$/unit/src/com/thoughtworks/buildnotifier/domain/PipelineTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/BuildNotifier.java" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/BuildNotifier.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Stage.java" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Stage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unit/build.xml" afterPath="$PROJECT_DIR$/unit/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/activities/StatusActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Pipeline.java" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Pipeline.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Job.java" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Job.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/views/StatusView.java" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/views/StatusView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/views/StatusActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/WebClient.java" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/WebClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/Http.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/Http.java" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/Http.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/views/PipelineDetails.java" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/activities/PipelineActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/activities/StatusActivity.java" />
     </list>
     <ignored path="build-notifier.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,88 +75,64 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BuildNotifier.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/BuildNotifier.java">
+      <file leaf-file-name="PipelineTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unit/src/com/thoughtworks/buildnotifier/domain/PipelineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="68" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatusActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/activities/StatusActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="37" column="0" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.80694145">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PipelineView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/views/PipelineView.java">
+      <file leaf-file-name="Job.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Job.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+            <state line="4" column="31" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PipelineActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/activities/PipelineActivity.java">
+      <file leaf-file-name="Buildable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Buildable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
+            <state line="53" column="22" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/res/values/strings.xml">
+      <file leaf-file-name="Stage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Stage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
+            <state line="19" column="25" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebClient.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/WebClient.java">
+      <file leaf-file-name="Pipeline.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Pipeline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="10" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.6413502">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Http.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/Http.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+            <state line="21" column="16" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatusView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/views/StatusView.java">
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unit/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+            <state line="48" column="54" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-28.8">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PipelinesTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unit/src/com/thoughtworks/buildnotifier/domain/PipelinesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -181,8 +161,13 @@
         <option value="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/activities/StatusActivity.java" />
         <option value="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/activities/PipelineActivity.java" />
         <option value="$PROJECT_DIR$/app/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/Http.java" />
         <option value="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/WebClient.java" />
+        <option value="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/Http.java" />
+        <option value="$PROJECT_DIR$/unit/build.xml" />
+        <option value="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Pipeline.java" />
+        <option value="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Stage.java" />
+        <option value="$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Job.java" />
+        <option value="$PROJECT_DIR$/unit/src/com/thoughtworks/buildnotifier/domain/PipelineTest.java" />
       </list>
     </option>
   </component>
@@ -227,6 +212,56 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="build-notifier" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-notifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-notifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buildnotifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-notifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buildnotifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -301,28 +336,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build-notifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buildnotifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -347,13 +360,95 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.thoughtworks.buildnotifier.activities" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.App">
+  <component name="RunManager" selected="JUnit.PipelineTest.addJobToStage">
+    <configuration default="false" name="PipelineTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.buildnotifier.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Unit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.buildnotifier.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.buildnotifier.domain.PipelineTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PipelineTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.buildnotifier.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Unit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.buildnotifier.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.buildnotifier.domain.PipelineTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PipelineTest.addJobToStage" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.buildnotifier.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Unit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.buildnotifier.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.buildnotifier.domain.PipelineTest" />
+      <option name="METHOD_NAME" value="addJobToStage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -521,10 +616,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android Application.App" />
       <item index="1" class="java.lang.String" itemvalue="Android Tests.test" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.unit-tests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PipelineTest.testEquals" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PipelineTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PipelineTest.addJobToStage" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -544,7 +642,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32837838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -594,16 +692,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.15189873" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit/src/com/thoughtworks/buildnotifier/domain/PipelinesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.25316456" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/views/PipelineView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
@@ -613,7 +701,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/views/StatusView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+        <state line="13" column="13" selection-start="412" selection-end="412" vertical-scroll-proportion="0.067510545">
           <folding />
         </state>
       </provider>
@@ -621,15 +709,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/BuildNotifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="68" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/activities/StatusActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -657,19 +736,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/WebClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.8101266">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/activities/StatusActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="0.16877638">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/Http.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+        <state line="88" column="23" selection-start="3398" selection-end="3398" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/web/WebClient.java">
+    <entry file="file://$PROJECT_DIR$/unit/src/com/thoughtworks/buildnotifier/domain/PipelinesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="10" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.6413502">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="15" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="54" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-28.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Pipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="16" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/thoughtworks/buildnotifier/domain/Buildable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="22" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit/src/com/thoughtworks/buildnotifier/domain/PipelineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.80694145">
+          <folding />
         </state>
       </provider>
     </entry>

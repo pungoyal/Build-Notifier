@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 public class PipelineTest {
     @Test
@@ -25,8 +26,12 @@ public class PipelineTest {
     public void addJobToStage() {
         Pipeline pipeline = new Pipeline("pipe");
         pipeline.addStage(StageMother.create("stage"));
-        pipeline.addJobToStage("stage", JobMother.create());
 
-        Stage stage = pipeline.stageAt(1);
+        Job job = JobMother.create();
+        pipeline.addJobToStage("stage", job);
+
+        Stage stage = pipeline.stageAt(0);
+
+        assertEquals(stage.jobAt(0), job);
     }
 }
