@@ -51,5 +51,4 @@ public class Pipeline {
     public Stage stageAt(int position) {
         return stages.get(position);
     }
-
 }

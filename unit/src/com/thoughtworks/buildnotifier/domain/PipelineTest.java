@@ -33,4 +33,13 @@ public class PipelineTest {
 
         assertEquals(stage.jobAt(0), job);
     }
+
+    @Test
+    public void testAddStage() {
+        Pipeline pipeline = new Pipeline("name");
+        assertEquals(0, pipeline.stagesCount());
+
+        pipeline.addStage(StageMother.create("stage"));
+        assertEquals(1, pipeline.stagesCount());
+    }
 }
