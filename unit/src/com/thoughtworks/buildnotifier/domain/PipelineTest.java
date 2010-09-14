@@ -29,7 +29,6 @@ public class PipelineTest {
 
         Job job = JobMother.create();
         pipeline.addJobToStage("stage", job);
-
         Stage stage = pipeline.stageAt(0);
 
         assertEquals(stage.jobAt(0), job);
