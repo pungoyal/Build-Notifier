@@ -3,5 +3,5 @@ require 'sinatra'
 
 get '/cctray.xml' do
   content_type "application/xml", :charset => "utf-8"
-  File.open("cctray.xml", "rb").read
+  File.open("mocks/cctray.xml", "rb").read
 end

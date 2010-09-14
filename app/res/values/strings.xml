@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">Build Notifier</string>
-	<string name="app_full_name">Android build notifier</string>
-	<string name="view_status_label">Current Status</string>
-	<string name="about_label">About Notifier</string>
-	<string name="exit_label">Exit</string>
+    <string name="app_name">Build Notifier</string>
+    <string name="app_full_name">Android build notifier</string>
+    <string name="view_status_label">Current Status</string>
+    <string name="about_label">About Notifier</string>
+    <string name="exit_label">Exit</string>
 
-	<string name="status_title">Pipelines</string>
-	<string name="pipeline_title">Pipelines</string>
-	<string name="empty">None found!</string>
+    <string name="status_title">Pipelines</string>
+    <string name="pipeline_title">Pipelines</string>
+    <string name="empty">None found!</string>
 
-	<string name="settings_label">Settings...</string>
-	<string name="settings_title">Settings</string>
-	<string name="settings_shortcut">s</string>
+    <string name="settings_label">Settings...</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_shortcut">s</string>
 
-	<string name="connection_key">connection</string>
-	<string name="connection_title">Connection</string>
-	<string name="connection_summary">Connection related preferences</string>
+    <string name="connection_key">connection</string>
+    <string name="connection_title">Connection</string>
+    <string name="connection_summary">Connection related preferences</string>
 
-	<string name="server_key">server</string>
-	<string name="server_title">Server</string>
-	<string name="server_summary">Where Go is hosted</string>
+    <string name="server_key">server</string>
+    <string name="server_title">Path to cctray.xml</string>
+    <string name="server_summary">e.g. 10.12.1.65:8153/cruise</string>
 
-	<string name="about_title">About Go</string>
-	<string name="about_text">
-		\
-		Go is an enterprise release management
-		system from ThoughtWorks Studios.
-
-		This app connects to your
-		Go instance
-		to see the latest build status.
-	</string>
+    <string name="about_title">About build notifier</string>
+    <string name="about_text">
+        Build notifier app connects to your CI
+        server and monitors the cctray.xml for changes.
+    </string>
 </resources>

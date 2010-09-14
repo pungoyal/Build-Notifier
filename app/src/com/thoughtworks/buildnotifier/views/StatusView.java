@@ -8,6 +8,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import com.thoughtworks.buildnotifier.activities.PipelineActivity;
 import com.thoughtworks.buildnotifier.domain.Pipeline;
 
 public class StatusView extends LinearLayout implements OnClickListener {
@@ -28,7 +29,7 @@ public class StatusView extends LinearLayout implements OnClickListener {
 	}
 
 	public void onClick(View v) {
-		Intent intent = new Intent(context, PipelineDetails.class);
+		Intent intent = new Intent(context, PipelineActivity.class);
 		intent.putExtra("com.thoughtworks.go.pipeline.name", pipeline.getName());
 		context.startActivity(intent);
 	}
