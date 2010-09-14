@@ -1,12 +1,12 @@
 package com.thoughtworks.buildnotifier;
 
+import com.thoughtworks.buildnotifier.preferences.ServerPreferences;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.*;
 import android.view.View.OnClickListener;
 import com.thoughtworks.buildnotifier.activities.StatusActivity;
-import com.thoughtworks.buildnotifier.preferences.ServerPreferences;
 
 public class BuildNotifier extends Activity {
     @Override
@@ -56,4 +56,5 @@ public class BuildNotifier extends Activity {
         }
         return false;
     }
+
 }

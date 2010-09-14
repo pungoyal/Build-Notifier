@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import com.thoughtworks.buildnotifier.R;
 
 import com.thoughtworks.buildnotifier.activities.PipelineActivity;
 import com.thoughtworks.buildnotifier.domain.Pipeline;
@@ -24,6 +25,7 @@ public class StatusView extends LinearLayout implements OnClickListener {
 		pipelineButton.setText(pipeline.getName());
 		pipelineButton.setTextColor(Color.BLACK);
 		pipelineButton.setOnClickListener(this);
+        pipelineButton.setBackgroundResource(R.drawable.button);
 
 		addView(pipelineButton, new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT));
 	}
