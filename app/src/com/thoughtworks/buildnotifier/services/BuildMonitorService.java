@@ -40,7 +40,7 @@ public class BuildMonitorService extends Service {
 
     private void showNotification() {
         CharSequence text = "Build failed!";
-        Notification notification = new Notification(R.drawable.icon, text, System.currentTimeMillis());
+        Notification notification = new Notification(R.drawable.pool_icon, text, System.currentTimeMillis());
         PendingIntent contentIntent = PendingIntent.getActivity(this, 0, new Intent(this, BuildNotifier.class), 0);
         notification.setLatestEventInfo(this, "Build", text, contentIntent);
         notificationManager.notify(R.string.app_name, notification);
