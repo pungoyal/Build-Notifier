@@ -19,4 +19,8 @@ public class Stage extends Buildable {
     public Job jobAt(int i) {
         return jobs.get(i);
     }
+
+    public boolean isFailing() {
+        return lastBuildStatus.equals(BuildStatus.FAILURE);
+    }
 }

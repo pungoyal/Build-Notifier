@@ -6,7 +6,7 @@ public abstract class Buildable {
 
     private final String name;
     private final BuildActivity activity;
-    private final BuildStatus lastBuildStatus;
+    protected final BuildStatus lastBuildStatus;
     private final String lastBuildLabel;
     private final Date lastBuildTime;
     private final String url;

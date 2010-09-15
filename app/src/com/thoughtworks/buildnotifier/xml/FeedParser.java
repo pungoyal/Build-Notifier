@@ -12,7 +12,7 @@ import java.io.StringReader;
 
 public class FeedParser {
     public Pipelines parse(String cctray) throws XMLParseException {
-        Pipelines pipelines = new Pipelines();
+        Pipelines pipelines;
         try {
             Reader reader = new StringReader(cctray);
             InputSource inputSource = new InputSource(reader);

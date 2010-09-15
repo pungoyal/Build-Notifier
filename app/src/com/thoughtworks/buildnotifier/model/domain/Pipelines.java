@@ -34,4 +34,11 @@ public class Pipelines extends ArrayList<Pipeline> {
         return new Pipeline(name);
     }
 
+    public boolean isFailing() {
+        for (Pipeline pipeline : this) {
+            if (pipeline.isFailing())
+                return true;
+        }
+        return false;
+    }
 }

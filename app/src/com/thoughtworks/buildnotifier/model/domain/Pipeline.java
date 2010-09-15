@@ -51,4 +51,12 @@ public class Pipeline {
     public Stage stageAt(int position) {
         return stages.get(position);
     }
+
+    public boolean isFailing() {
+        for(Stage stage : stages) {
+            if (stage.isFailing())
+                return true;
+        }
+        return false;
+    }
 }
