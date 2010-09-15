@@ -10,7 +10,7 @@
     <string name="pipeline_title">Pipelines</string>
     <string name="empty">None found!</string>
 
-    <string name="settings_label">Settings...</string>
+    <string name="settings_label">Settings</string>
     <string name="settings_title">Settings</string>
     <string name="settings_shortcut">s</string>
 

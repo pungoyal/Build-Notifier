@@ -14,7 +14,6 @@ public class ServerPreferences extends PreferenceActivity {
         addPreferencesFromResource(R.xml.settings);
 
         findPreference(Constants.SERVER_KEY).setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
-            @Override
             public boolean onPreferenceChange(Preference preference, Object o) {
                 return BuildNotifierPreferenceManager.setServer(ServerPreferences.this, preference, (String) o);
             }

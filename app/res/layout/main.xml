@@ -12,6 +12,9 @@
                 android:hapticFeedbackEnabled="true" android:background="@drawable/button"/>
         <Button android:id="@+id/about_button" android:layout_width="fill_parent" android:layout_height="wrap_content"
                 android:text="@string/about_label" android:background="@drawable/button"/>
+        <Button android:id="@+id/settings_button" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:text="@string/settings_label"
+                android:background="@drawable/button"/>
         <Button android:id="@+id/exit_button" android:layout_width="fill_parent" android:layout_height="wrap_content"
                 android:text="@string/exit_label" android:background="@drawable/button"/>
     </LinearLayout>

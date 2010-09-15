@@ -31,6 +31,13 @@ public class BuildNotifier extends Activity {
             }
         });
 
+        View settingsButton = findViewById(R.id.settings_button);
+        settingsButton.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(BuildNotifier.this, ServerPreferences.class));
+            }
+        });
+
         View exitButton = findViewById(R.id.exit_button);
         exitButton.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {

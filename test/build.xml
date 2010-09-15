@@ -42,7 +42,6 @@ This requires ant 1.6.0 or above. -->
     </path>
 
     <path id="classpath.test">
-        <pathelement location="libs/junit-4.8.2.jar"/>
         <pathelement location="bin/classes"/>
         <pathelement location="../app/bin/classes"/>
     </path>
