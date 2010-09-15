@@ -10,3 +10,4 @@ unit/build/*
 .metadata/*
 local/*
 out/*
+app/local.properties

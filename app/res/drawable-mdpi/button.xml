@@ -3,4 +3,8 @@
     <item android:state_focused="true" android:drawable="@drawable/focus_button"/>
     <item android:state_pressed="true" android:drawable="@drawable/focus_button"/>
     <item android:drawable="@drawable/normal_button"/>
+    <item android:state_focused="true" android:state_pressed="false" android:drawable="@drawable/focus_button"/>
+    <item android:state_pressed="true" android:state_focused="false" android:drawable="@drawable/focus_button"/>
+    <item android:state_pressed="true" android:state_focused="true" android:drawable="@drawable/focus_button"/>
+    <item android:drawable="@drawable/normal_button"/>
 </selector>
