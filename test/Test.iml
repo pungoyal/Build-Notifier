@@ -17,10 +17,10 @@
       <excludeFolder url="file://$MODULE_DIR$/bin" />
       <excludeFolder url="file://$MODULE_DIR$/coverage" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Android 2.2 Platform" level="application" />
-    <orderEntry type="module" module-name="App" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="Android 2.2 Platform" level="application" />
+    <orderEntry type="module" module-name="App" exported="" />
   </component>
 </module>
 
