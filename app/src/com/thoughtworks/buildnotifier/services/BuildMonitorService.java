@@ -19,12 +19,9 @@ public class BuildMonitorService extends Service {
     private BuildClient client;
     private NotificationManager notificationManager;
 
-    public BuildMonitorService() {
-        client = new BuildClient(this);
-    }
-
     @Override
     public void onCreate() {
+        client = new BuildClient(this);
         notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 
         timer.scheduleAtFixedRate(new TimerTask() {

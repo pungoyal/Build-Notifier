@@ -16,7 +16,7 @@
                   android:screenOrientation="portrait"/>
         <activity android:name=".activities.PipelineActivity" android:label="@string/pipeline_title"
                   android:screenOrientation="portrait"/>
-        <activity android:name=".view.preferences.ServerPreferences" android:label="@string/settings_title"/>
+        <activity android:name=".activities.ServerPreferences" android:label="@string/settings_title"/>
 
         <service android:name=".services.BuildMonitorService" android:label="xml-service"/>
     </application>

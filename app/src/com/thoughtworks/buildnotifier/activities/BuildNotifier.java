@@ -7,7 +7,6 @@ import android.view.*;
 import android.view.View.OnClickListener;
 import com.thoughtworks.buildnotifier.R;
 import com.thoughtworks.buildnotifier.services.BuildMonitorService;
-import com.thoughtworks.buildnotifier.view.preferences.ServerPreferences;
 
 public class BuildNotifier extends Activity {
     @Override
