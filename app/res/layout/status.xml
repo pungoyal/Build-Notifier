@@ -13,7 +13,8 @@
                   android:layout_height="match_parent"
                   android:drawSelectorOnTop="false"
                   android:dividerHeight="0dip"
-                  android:divider="@null"/>
+                  android:divider="@null"
+                  android:listSelector="@drawable/selector"/>
         <TextView android:id="@android:id/empty"
                   android:layout_width="match_parent"
                   android:layout_height="match_parent"
