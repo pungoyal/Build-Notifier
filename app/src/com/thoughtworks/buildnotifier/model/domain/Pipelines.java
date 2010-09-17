@@ -28,14 +28,6 @@ public class Pipelines extends ArrayList<Pipeline> {
         pipeline.addJobToStage(stageName, job);
     }
 
-    public Pipeline find(String name) {
-        for (Pipeline pipeline : this) {
-            if (pipeline.getName().equals(name))
-                return pipeline;
-        }
-        return new Pipeline(name);
-    }
-
     public boolean isFailing() {
         for (Pipeline pipeline : this) {
             if (pipeline.isFailing())

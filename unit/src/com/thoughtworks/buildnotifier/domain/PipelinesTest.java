@@ -12,21 +12,21 @@ import static org.junit.Assert.assertEquals;
 public class PipelinesTest {
 
     @Test
-    public void testFind() {
+    public void testFindOrCreate() {
         Pipelines pipelines = new Pipelines();
-        Pipeline pipeline = pipelines.find("project");
+        Pipeline pipeline = pipelines.findOrCreate("project");
         assertNotNull(pipeline);
     }
 
     @Test
-    public void testFindExistingPipeline() {
+    public void testFindOrCreateExistingPipeline() {
         Pipelines pipelines = new Pipelines();
         Pipeline pipeline1 = new Pipeline("Project");
         Stage stage = new Stage("hello", BuildActivity.SLEEPING, BuildStatus.SUCCESS, "1234", new Date(), "i-am-a-url");
         pipeline1.addStage(stage);
         pipelines.addStage(pipeline1.getName(), stage);
         
-        assertEquals(pipeline1, pipelines.find("Project"));
+        assertEquals(pipeline1, pipelines.findOrCreate("Project"));
     }
 
     @Test

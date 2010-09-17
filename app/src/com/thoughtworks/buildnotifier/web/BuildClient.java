@@ -35,7 +35,7 @@ public class BuildClient {
 
     public Pipeline getStatusOf(String pipelineName) {
         Pipelines pipelines = getStatus();
-        return pipelines.find(pipelineName);
+        return pipelines.findOrCreate(pipelineName);
     }
 
     private String getResponseXML() throws IOException {
