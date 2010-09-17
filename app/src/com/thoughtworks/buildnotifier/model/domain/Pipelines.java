@@ -1,5 +1,7 @@
 package com.thoughtworks.buildnotifier.model.domain;
 
+import com.thoughtworks.buildnotifier.model.domain.Pipeline;
+
 import java.util.ArrayList;
 
 public class Pipelines extends ArrayList<Pipeline> {

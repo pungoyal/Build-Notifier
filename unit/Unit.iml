@@ -9,9 +9,9 @@
     </content>
     <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="junit" level="project" />
-    <orderEntry type="module" module-name="App" />
-    <orderEntry type="module-library">
+    <orderEntry type="library" exported="" name="junit" level="project" />
+    <orderEntry type="module" module-name="App" exported="" />
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.7.jar!/" />
